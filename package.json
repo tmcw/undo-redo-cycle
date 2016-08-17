@@ -1,0 +1,23 @@
+{
+  "name": "undo-redo-cycle",
+  "version": "1.0.0",
+  "description": "an example of undo and redo with cycle.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo index.js --live"
+  },
+  "keywords": [
+    "cycle",
+    "js",
+    "undo",
+    "redo"
+  ],
+  "author": "Tom MacWright",
+  "license": "ISC",
+  "dependencies": {
+    "@cycle/dom": "12.1.0",
+    "@cycle/xstream-run": "3.0.4",
+    "budo": "8.3.0",
+    "xstream": "5.3.2"
+  }
+}
